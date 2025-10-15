@@ -24,6 +24,7 @@ html[data-style-variant="a"] {
   --text-white: #ffffff;
   --transparent-blue-gradient: rgba(148, 153, 221, 0.1);
   --shadow-soft: 0 0 1rem 0 rgba(0, 0, 0, 0.1);
+  --margin-xxlarge: 2rem;
 }
 
 html[data-style-variant="a"] .nav_component {
@@ -76,4 +77,56 @@ html[data-style-variant="a"] .news-card--variant-a {
 
 html[data-style-variant="a"] .news-card-cta-button {
   margin-top: auto;
+}
+
+html[data-style-variant="a"] .section_about-us,
+html[data-style-variant="a"] .section-home-news,
+html[data-style-variant="a"] .section-home-header,
+html[data-style-variant="a"] .section-meet-os,
+html[data-style-variant="a"] .section-featured,
+html[data-style-variant="a"] .section_product-header,
+html[data-style-variant="a"] .section_news-header,
+html[data-style-variant="a"] .section_news-feed,
+html[data-style-variant="a"] .section-how-it-works,
+html[data-style-variant="a"] .section_team {
+  padding: 1rem 0;
+}
+
+html[data-style-variant="a"] .section-about,
+html[data-style-variant="a"] .section-transport {
+  height: auto;
+  padding: 0;
+}
+
+html[data-style-variant="a"] .padding-huge {
+  padding: 2rem 0;
+}
+
+html[data-style-variant="a"] .max-width-large {
+  max-width: 100%;
+}
+
+html[data-style-variant="a"] body {
+  text-align: justify;
+}
+
+html[data-style-variant="a"] .news-card {
+  min-height: 180px; /* Make cards less tall */
+  padding: 1rem; /* Reduce spacing inside the card */
+}
+
+html[data-style-variant="a"] .news-card-date {
+  font-size: 0.75rem; /* Adjust font size */
+  margin-bottom: 0.25rem; /* Reduce spacing */
+}
+
+html[data-style-variant="a"] .news-card-title {
+  font-size: 1.1rem; /* Adjust font size */
+  line-height: 1.3;
+  margin-bottom: 0.5rem; /* Reduce spacing */
+}
+
+html[data-style-variant="a"] .news-card-excerpt {
+  font-size: 0.9rem; /* Adjust font size */
+  line-height: 1.4;
 }
